@@ -19,8 +19,8 @@ Traceloop.init(
 
 # openai.api_key = os.getenv("OPENAI_API_KEY")
 
-AZURE_OPENAI_API_KEY="c344098fa1fd41ab9bd07109ae3b86bb"
-AZURE_OPENAI_ENDPOINT="https://octo-n-zeaus-genailzv6-openai-15c1.openai.azure.com/"
+AZURE_OPENAI_API_KEY="cxxxxxxx"
+AZURE_OPENAI_ENDPOINT="https://octo-xxxxx.openai.azure.com/"
 AZURE_OPENAI_DEPLOYMENT="gpt-4o-classification"
 AZURE_OPENAI_API_VERSION="2024-02-15-preview"
 llm=AzureChatOpenAI(azure_endpoint=AZURE_OPENAI_ENDPOINT,

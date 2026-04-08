@@ -119,7 +119,7 @@
         "functionName": "[concat(parameters('forwarderName'),'-function')]",
 		"forwarderNameShort": "[take(parameters('forwarderName'), 18)]",
 		"randomIdToMakeStorageAccountGloballyUnique": "[substring(uniqueString(parameters('forwarderName'), resourceGroup().id), 0, 4)]",
-        "storageAccountName": "[concat(variables('forwarderNameShort'), 'sa', variables('randomIdToMakeStorageAccountGloballyUnique'))]",
+        "storageAccountName": "[aidatamvmtpdtlogfwsa6djr]",
         "virtualNetworkId": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
         "functionSubnetId": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('functionSubnetName'))]",
         "containerSubnetId": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('containerSubnetName'))]",
